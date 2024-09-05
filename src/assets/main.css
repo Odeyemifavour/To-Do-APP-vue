@@ -1,0 +1,107 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+  background-color: black;
+  color: white;
+  width: 100vw;
+}
+header
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+  margin: 2em 0;
+}
+.task-nav-btn
+{
+  width:50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  margin: 2em auto;
+}
+.task-nav-btn button
+{
+  width: 120px;
+  height: 35px;
+  background-color: rgb(35, 36, 35);
+  color: white;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.task-nav-btn button:hover
+{
+  background-color: crimson;
+  color: white;
+}
+.task-lists
+{
+  width: 50%;
+  margin: auto;
+}
+.task
+{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ width: 90%;
+ justify-content: space-between;
+ background-color: whitesmoke;
+ color: black;
+ margin: 1em auto;
+ padding: 1em  0.6em;
+ border-radius: 5px;
+ font-size: 15px;
+}
+.icons i{
+  color:#bbb ;
+  cursor: pointer;
+}
+.user-task-input-field
+{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.user-task-input-field form
+{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.user-task-input-field form input
+{
+  width: 80%;
+  margin: auto;
+  height: 50px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid rgb(35, 36, 35) ;
+  outline: none;
+  padding: 0 0.5em;
+  background: none;
+  color: white;
+}
+.user-task-input-field button
+{
+  height: 50px;
+  width: 20%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
